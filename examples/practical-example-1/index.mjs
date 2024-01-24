@@ -4,7 +4,7 @@ import { displayAmount } from "./display.mjs";
 
 // Our item initially costs 20
 const price = 100;
-const taxPercentage = 15;
+const taxPercentage = 10;
 
 // We need to add tax to our item.
 const priceWithTax = calculateTax(price, taxPercentage);
